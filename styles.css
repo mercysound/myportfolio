@@ -4,11 +4,12 @@
 }
 body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 @media screen and (max-width:1000px) {
     #parent{
-       padding-left: 2em !important;
-       padding-right: 2em !important;
+       padding-left: 1em !important;
+       padding-right: 1em !important;
    }
 }
 #arrowtop{
@@ -39,6 +40,8 @@ body{
 #sec1dv1{
     color: navy;
 }
+
+
 @media screen and (max-width:1000px) {
     #sec1dv1{
        max-width: 90%;
@@ -183,6 +186,22 @@ body{
     animation-fill-mode: forwards;
     animation-delay:200ms;
 }
+#sec3img02{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/landmark-uni.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sec3img01{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/landkit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 #sec3img1{
     height: 200px;
     background-color: #b5b0ee;
@@ -292,17 +311,24 @@ body{
 }
 @media screen and (max-width:1000px) {
     #sec5dv1{
-        height: 60vh;
+        height: 40vh;
         max-width: 50% !important;       
    }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:200px) {
     #sec5dv1{
         height: 40vh;
         max-width: 90% !important; 
         background-size: cover;  
    }
 }
+
+/* @media screen and (max-width:3000px) {
+  #sec5dv1{
+      height: 40vh;
+      max-width: 10% !important;       
+ }
+} */
 
 @media screen and (max-width:1000px) {
     #sec5dv2{
