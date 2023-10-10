@@ -1,0 +1,550 @@
+#parent{
+    width: 100%;
+    height: auto;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+@media screen and (max-width:1000px) {
+    #parent{
+       padding-left: 1em !important;
+       padding-right: 1em !important;
+   }
+}
+#arrowtop{
+    position: fixed;
+    bottom:0px;
+    right: 0px; 
+}
+#topnav{
+    background-color: #FFF9E7;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/* 1 */
+#sec1{
+    background-color: #FFF9E7;
+}
+#topnav a{
+    color: navy;
+}
+#active{
+    color:#756BEE !important;
+}
+#nav1btn{
+    background-color:navy;
+}
+
+#sec1dv1{
+    color: navy;
+}
+
+
+@media screen and (max-width:1000px) {
+    #sec1dv1{
+       max-width: 90%;
+   }
+}
+
+#sec1hd1{
+    color: navy;
+}
+/* @media screen and (max-width:1000px) {
+    #sec1hd1{
+       font-size: medium;
+   }
+} */
+
+#sec1sp1{
+    color:#756BEE ;
+}
+/* @media screen and (max-width:1000px) {
+    #sec1sp1{
+       font-size: medium;
+   }
+} */
+#sec1p1{
+    color:#756BEE ;
+}
+/* @media screen and (max-width:1000px) {
+    #sec1p1{
+       font-size: small;
+   }
+} */
+#sec1btn{
+    background-color:#756BEE;
+}
+@media screen and (max-width:1000px) {
+    #sec1btn{
+       font-size: x-small;
+   }
+}
+
+#imgsm{
+   height:30px;
+   width: 30px;
+   border-radius: 50%;
+}
+@media screen and (max-width:1000px) {
+    #imgsm{
+        height:15px;
+        width: 15px;
+   }
+}
+
+#imgsmtxt{
+    color:#756BEE;
+    font-size: small;
+}
+@media screen and (max-width:1000px) {
+    #imgsmtxt{
+       font-size: x-small;
+   }
+}
+
+#sec1dv2{
+    background-image: url(./assets/kay_banner_image-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    clip-path: polygon(29% 0, 92% 0, 78% 100%, 10% 100%);
+    background-color:#b5b0ee;
+    border: 5px solid goldenrod;
+}
+@media screen and (max-width:1000px) {
+    #sec1dv2{
+        min-width: 40%;
+        height: auto;
+        background-size: cover !important;      
+   }
+}
+/* sec2 */
+#sec2hd1{
+    color: navy;
+}
+#sec2dv1{
+    color:navy;
+}
+#clip{
+    position: absolute; 
+    width: 96%; 
+    height: 120px;
+    background-color: navy;
+    clip-path: circle(25.4% at 91% 12%);
+} 
+.card-text{
+    padding-top: 20px;
+}
+#sec2dv2 img {
+  width: 30% 
+}
+
+
+#sec2dv2{
+    background-color: #FFF9E7;
+    box-shadow: 2px 2px 10px;
+}
+#sec2txt2{
+    color:navy ;
+    font-size: small;
+}
+/* sec3 */
+#sec3{
+    background-color:white
+}
+#sec3dv1{
+    color: navy;
+}
+@media screen and (max-width:1000px) {
+    #sec3hd1{
+       font-size:large;
+   }
+}
+#sec3sp1{
+    color:#756BEE;
+}
+@media screen and (max-width:1000px) {
+    #sec3p1{
+       font-size: small;
+   }
+}
+@keyframes scale {
+  from {
+    transform: scale(100%);
+    }
+
+    to {
+        transform: scale(120%);
+      }
+    } 
+    .myImg:hover{
+      animation-name: scale;
+    animation-duration: 300ms;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    animation-delay:200ms;
+  }
+
+#sec3img01{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/My-Bank-app.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+#sec3img02{
+  height: 200px;
+  background-color: #b5b0ee;
+  background-image: url(./assets/audio-mark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#sec3img03{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/weather-app.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec3img04{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/My-Todo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* before */
+  #sec3img05{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/My-Library-Mana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sec3img06{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/calculator.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sec3img07{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/My-Chatbox.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #sec3img08{
+    height: 200px;
+      background-color: #b5b0ee;
+      background-image: url(./assets/tic-tac-toe.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  #sec3img09{
+    height: 200px;
+      background-color: #b5b0ee;
+      background-image: url(./assets/gradeapp.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  #sec3img10{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/landmark-uni.png);
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    #sec3img11{
+      height: 200px;
+      background-color: #b5b0ee;
+      background-image: url(./assets/landkit.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    #sec3img12{
+        height: 200px;
+        background-color: #b5b0ee;
+        background-image: url(assets/gotaxi.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #sec3imgbx a{
+      color: navy;
+    }
+    #imgtxt{
+      font-size: small;
+      color:#756BEE
+    }
+/* sec4 */
+#sec4{
+  background-color: #FFF9E7 ;
+}
+@media screen and (max-width:1000px) {
+    #sec4 h3{
+       font-size:medium;
+   }
+  }
+#sec4dv2{
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+}
+/* sec5 */
+#sec5{
+    background-color:white;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#sec5dv1{
+    background-image: url(./assets/kay_banner_image-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    clip-path: polygon(11% 0, 76% 0, 88% 100%, 23% 100%);
+    background-color:#b5b0ee;
+    border: 5px solid goldenrod;
+}
+@media screen and (max-width:1000px) {
+    #sec5dv1{
+        height: 40vh;
+        max-width: 50% !important;       
+   }
+}
+@media screen and (max-width:200px) {
+    #sec5dv1{
+        height: 40vh;
+        max-width: 90% !important; 
+        background-size: cover;  
+   }
+}
+
+/* @media screen and (max-width:3000px) {
+  #sec5dv1{
+      height: 40vh;
+      max-width: 10% !important;       
+ }
+} */
+
+@media screen and (max-width:1000px) {
+    #sec5dv2{
+       width: 80% !important; 
+   }
+}
+
+#sec5p1{
+    color: navy;
+}
+
+#skills h1{
+    color: navy;
+}
+@media screen and (max-width:1000px) {
+    #skills h1{
+       font-size:large;
+   }
+}
+#skills strong{
+    color:#756BEE;
+}
+@media screen and (max-width:1000px) {
+    #skills strong{
+       font-size:small;
+   }
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    color: navy;
+} 
+@media screen and (max-width:1000px) {
+    ul li{
+       font-size:small;
+   }
+}
+#skillsb h1{
+    color: navy
+}
+@media screen and (max-width:1000px) {
+    #skillsb h1{
+       font-size:large;
+   }
+}
+#skillsbp{
+    color: #756BEE;
+}
+@media screen and (max-width:1000px) {
+    #skillsbp{
+       font-size:small;
+   }
+}
+#sec5{
+  background-color:white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+#sec5dv1{
+  background-image: url(./assets/kay_banner_image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  clip-path: polygon(11% 0, 76% 0, 88% 100%, 23% 100%);
+  background-color:#b5b0ee;
+  border: 5px solid goldenrod;
+}
+@media screen and (max-width:1000px) {
+  #sec5dv1{
+      height: 40vh;
+      max-width: 50% !important;       
+ }
+  #sec5dv1 img{
+      height: 40vh;
+      max-width: 50% !important;       
+ }
+}
+@media screen and (max-width:600px) {
+  #sec5dv1{
+      height: 40vh;
+      max-width: 90% !important; 
+      background-size: cover;  
+ }
+}
+
+@media screen and (max-width:1000px) {
+  #sec5dv2{
+     width: 80% !important; 
+ }
+}
+
+#sec5p1{
+  color: navy;
+}
+
+#skills h1{
+  color: navy;
+}
+@media screen and (max-width:1000px) {
+  #skills h1{
+     font-size:large;
+ }
+}
+#skills strong{
+  color:#756BEE;
+}
+@media screen and (max-width:1000px) {
+  #skills strong{
+     font-size:small;
+ }
+}
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  color: navy;
+} 
+@media screen and (max-width:1000px) {
+  ul li{
+     font-size:small;
+ }
+}
+#skillsb h1{
+  color: navy
+}
+@media screen and (max-width:1000px) {
+  #skillsb h1{
+     font-size:large;
+ }
+}
+#skillsbp{
+  color: #756BEE;
+}
+@media screen and (max-width:1000px) {
+  #skillsbp{
+     font-size:small;
+ }
+}
+/* sec6 */
+#sec6a{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #FFF9E7;
+}
+#sec6atxt{
+    color: navy;
+}
+@media screen and (max-width:1000px) {
+    #sec6atxt h2{
+       font-size:large;
+   }
+}
+@media screen and (max-width:1000px) {
+    #sec6atxt p{
+       font-size:small;
+   }
+}
+#email{
+    font-size: small;
+    color:#756BEE;
+}
+@media screen and (max-width:1000px) {
+    #email{
+       font-size:x-small;
+   }
+}
+#sec6b{
+    color: navy;
+}
+@media screen and (max-width:1000px) {
+    #sec6b h3{
+       font-size:large;
+   }
+}
+/* #sec6b aside{
+    background-color: white;
+    padding: 10px;
+    color:#756BEE;
+    font-size: small;
+} */
+#sec6b strong{
+    color: navy;
+    font-size: large;
+} 
+@media screen and (max-width:1000px) {
+    #sec6b strong{
+       font-size: medium;
+   }
+}
+#sec6b a{
+    color:#756BEE;
+    text-decoration: none;
+}
+/* footer */
+#footer{
+    font-size: x-small;
+    background-color: navy;
+}
+@media screen and (max-width:1000px) {
+    #footer{
+       font-size: xx-small;
+   }
+}
+
+
+

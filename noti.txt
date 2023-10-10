@@ -1,0 +1,26 @@
+skeem head
+make a project of any barrier you don't want again in 
+your part
+demand your victory on the alter of prayer.
+1st day is worship and speaking in tong
+boldly declear
+check making http request
+const forHistory = () =>{
+      // localStorage.setItem("userHis", JSON.stringify(accountHistory))
+     let forDisplayhis = "";
+    //  console.log(you)
+      accountHistory.map((item, index) => (
+        forDisplayhis += `
+        <tr>
+          <td>${index+1}</td>
+          <td>${item.transType}</td>
+          <td>${item.amtFund}</td>
+          <td>${item.avaiBal}</td>
+          <td>${item.discript}</td>
+          <td>${item.dateFund}</td>
+          <td>${item.timeFund}</td>
+        </tr>`
+        ))
+        document.getElementById("tableBody").innerHTML = forDisplayhis
+        console.log(accountHistory)
+    }
