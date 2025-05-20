@@ -187,6 +187,22 @@ body{
     animation-delay:200ms;
   }
 
+#sec3img010{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/food-deli-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+#sec3img011{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./assets/ms-cloth-1-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 #sec3img01{
     height: 200px;
     background-color: #b5b0ee;
@@ -199,6 +215,14 @@ body{
   height: 200px;
   background-color: #b5b0ee;
   background-image: url(./assets/audio-mark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#sec3img002{
+  height: 200px;
+  background-color: #b5b0ee;
+  background-image: url(./assets/contending-for-faith.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -253,14 +277,14 @@ body{
       background-position: center;
       background-size: cover;
   }
-  #sec3img09{
+  /* #sec3img09{
     height: 200px;
       background-color: #b5b0ee;
       background-image: url(./assets/gradeapp.jpeg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-  }
+  } */
 
   #sec3img10{
     height: 200px;
@@ -282,6 +306,22 @@ body{
         height: 200px;
         background-color: #b5b0ee;
         background-image: url(assets/gotaxi.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #sec3img13{
+        height: 200px;
+        background-color: #b5b0ee;
+        background-image: url(assets/oop-app.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #sec3img14{
+        height: 200px;
+        background-color: #b5b0ee;
+        background-image: url(assets/timer.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
