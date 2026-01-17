@@ -585,6 +585,59 @@ ul{
        font-size: xx-small;
    }
 }
+/* ///////////////// */
+/* ===== UI POLISH & RESPONSIVENESS FIX ===== */
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Cards hover */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Project images smoother */
+.myImg {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Improve mobile spacing */
+@media screen and (max-width: 768px) {
+  section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  #sec6a form input,
+  #sec6a form textarea {
+    width: 100% !important;
+  }
+}
+
 
 
 
